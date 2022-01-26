@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Actividad 1</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../CSS/Estilos.css">
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        body { margin: 0;}
+        .row>[class^="col-"] {
+            padding-top: .75rem;
+            padding-bottom: .75rem;
+            background-color: rgba(86, 61, 124, .15);
+            border: 1px solid rgba(86, 61, 124, .2);
+            height: 50vh;
+        }
+        .buscador
+        {
+        display: flex;
+        flex-direction: row;
+        justify-items: right;
+        margin-right: 10px;        
+        }
+        .buscador input
+        {
+          padding: 7px;
+          border-radius: 7px;
+        }
+        .navbar-brand img
+        {
+          margin-left: 10px;
+        }
+      button
+      {
+        margin: 3px 10px 3px 3px;
+        padding: 7px;
+        border-radius: 5px;
+        border: 1px solid rgb(36, 172, 36);
+        background-color: rgba(86, 61, 124, .15);
+        color: rgb(13, 197, 13);
+      }
+      .card
+      {
+        margin: 40px 20px;
+        border: 1px solid rgb(194, 194, 194);
+        transition: 0.5s;
+      }
+      .card:hover
+      {
+        transition: 0.5s;
+        background-color:white;
+        border:1px solid #BFBFBF;
+        box-shadow:10px 10px 30px rgba(0, 0, 0, 0.8);
+      }
+      .nombreSitio
+      {
+        color:white;
+        padding: 10px 15px 3px 8px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+
+      footer
+      {
+        background-color: rgb(223, 223, 223);
+        min-height: 8vh;
+      }
+      footer h3
+      {
+        padding: 5px 10px;
+      }
+      
+    </style>
+</head>
+
+<body>
+     
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!--- Icono de nuestro sitio web-->
+        <a class="navbar-brand" href="#">
+          <img src="../Recursos/IXBgsQ8b_400x400.jpg" width="60" height="60" alt="">
+        </a>
+        
+        <h4 class="nombreSitio">Adidas</h4>
+  
+        <!-- Botón de tres rallas para menú comprimido-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
+  
+        <!-- Menú, usamos la clase navbar-nav -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+  
+       <li class="nav-item"> <!--Un ítem del menú-->
+          <a class="nav-link active" href="#">Inicio</a> <!-- Tipo de item un link-->
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Productos
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Camisetas</a></li>
+            <li><a class="dropdown-item" href="#">Pantalones</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Zapatillas</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Accesorios</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ayuda</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Sobre nosotros
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Redes</a></li>
+            <li><a class="dropdown-item" href="#">Nuestra Historia</a></li>
+          </ul>
+        </li>
+  
+        
+      </ul>
+      </div>
+
+      <div class="buscador">
+        <input type="text" placeholder="Buscar">
+      </div>
+
+      <div>
+        <button>Buscar</button>
+      </div>
+
+      </nav>
+
+    <main class="container">
+        <div class="row">
+            
+              <div class="card" style="width: 18rem;">
+                <img src="../Recursos/Camiseta-Adidas-3-bandas-blanca.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Camiseta Adidas de Hombre</h5>
+                    <p class="card-text">Una elegante camiseta de Adidas, combinando sus tradicionales 3 bandas en colores blanco y negro. Su suave tejido la convierte en una camiseta muy versátil, se ve bien si estás haciendo deporte o si estás cenando con amigos.</p>
+                    <a href="#" class="btn btn-primary">Añadir a la Cesta</a>
+                  </div>
+                </div>
+            
+            
+            <div class="card" style="width: 18rem;">
+              <img src="../Recursos/camiseta2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Camiseta Adidas Unisex</h5>
+                  <p class="card-text">Encuentra tu ritmo. Esta camiseta adidas es tan cómoda que te olvidarás de quitártela después de una carrera larga o un entrenamiento de velocidad. El secreto está en su tejido ligero y transpirable que te proporciona una total libertad de movimiento. La tecnología AEROREADY mantiene la piel seca en todo momento.</p>
+                  <a href="#" class="btn btn-primary">Añadir a la Cesta</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img src="../Recursos/pantalon-tiro.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pantalon Adidas Negro</h5>
+                    <p class="card-text">¿Vas a entrenar o a descansar? Este pantalón te acompaña sea cual sea tu decisión. Se ha confeccionado en tejido transpirable AEROREADY que mantiene la piel seca y te aporta una total comodidad. </p>
+                    <a href="#" class="btn btn-primary">Añadir a la Cesta</a>
+                  </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img src="../Recursos/zapatillas2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Zapatillas Adidas Sleek</h5>
+                    <p class="card-text">Presume de estilo deportivo. Esta versión de la adidas Sleek presenta una parte superior de piel suave con una puntera estilizada y una horma estrecha específica para mujer que le aportan un toque sofisticado. Los cordones con puntas doradas rematan el look.</p>
+                    <a href="#" class="btn btn-primary">Añadir a la Cesta</a>
+                  </div>
+              </div>
+        </div>
+
+        
+    </main>
+    <footer>
+      <h3>© - Ian Tauzy</h3>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  </body>
+</html>
