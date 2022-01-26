@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="estilo.css" type="text/css"?>
+<portada>
+<disco>
+<encabezado>
+    <encabezadoIzquierda>
+        <imagen></imagen>
+    </encabezadoIzquierda>
+    <encabezadoDerecha>
+        <datos>
+            <categoria>
+            <etiqueta>ARTISTA:</etiqueta>
+            <contenido>ABC</contenido>
+            </categoria>
+            <categoria>
+            <etiqueta>TITULO:</etiqueta>
+            <contenido>The collection</contenido>
+            </categoria>
+            <categoria>
+            <etiqueta>SELLO:</etiqueta>
+            <contenido>KARUSSELL INTERNATIONAL</contenido>
+            </categoria>
+            <categoria>
+            <etiqueta>REFERENCIA:</etiqueta>
+            <contenido>551 831-2</contenido>
+            </categoria>
+            <categoria>
+            <etiqueta>AÑO:</etiqueta>
+            <contenido>1996</contenido>
+            </categoria>
+            <categoria>
+            <etiqueta>PAIS:</etiqueta>
+            <contenido>Germany</contenido>
+            </categoria>
+            <categoria>
+            <etiqueta>FORMATO:</etiqueta>
+            <contenido>CD - Compilation</contenido>
+            </categoria>
+            <categoria>
+            <etiqueta>GENERO:</etiqueta>
+            <contenido>Funk / Soul, Electronic</contenido>
+            </categoria>
+            <categoria>
+            <etiqueta>ESTILO:</etiqueta>
+            <contenido>Funk Disco, Synth Pop</contenido>
+            </categoria>
+            <categoria>
+            <etiqueta>OBSERVACIONES:</etiqueta>
+            <contenido>Licensed from Mercury Records Ltd (London)</contenido>
+            </categoria>
+        </datos>
+    </encabezadoDerecha>
+</encabezado>
+<cuerpo>
+    <album>
+        <cd>CD 1</cd>
+        <canciones>
+            <cancion>
+                <enumeracion>01 </enumeracion>
+                <tema>Poison Arrow -</tema>
+                <duracion>[03:23]</duracion>
+            </cancion>
+            <cancion>
+                <enumeracion>02 </enumeracion>
+                <tema>The Look Of Love (Part One) -</tema>
+                <duracion> [03:29]</duracion>
+            </cancion>
+            <cancion>
+                <enumeracion>03 </enumeracion>
+                <tema>The Night Tou Murdered Love -</tema>
+                <duracion> [04:53]</duracion>
+            </cancion>
+            <cancion>
+                <enumeracion>04 </enumeracion>
+                <tema>Tears Are Not Enough -</tema>
+                <duracion> [03:29]</duracion>
+            </cancion>
+            <cancion>
+                <enumeracion>05 </enumeracion>
+                <tema>Be Near Me -</tema>
+                <duracion> [03:37]</duracion>
+            </cancion>
+            <cancion>
+                <enumeracion>06 </enumeracion>
+                <tema>I'm In Love With -</tema>
+                <duracion> [04:35]</duracion>
+            </cancion>
+            <cancion>
+                <enumeracion>07 </enumeracion>
+                <tema>The Reak Thing -</tema>
+                <duracion> [04:54]</duracion>
+            </cancion>
+            <cancion>
+                <enumeracion>08 </enumeracion>
+                <tema>Love's A Dangerous Laguage -</tema>
+                <duracion> [03:40]</duracion>
+            </cancion>
+            <cancion>
+                <enumeracion>09 </enumeracion>
+                <tema>The Greatest Love Of All -</tema>
+                <duracion> [05:34]</duracion>
+            </cancion>
+            <cancion>
+                <enumeracion>10 </enumeracion>
+                <tema>When Smokey Sings -</tema>
+                <duracion> [04:18]</duracion>
+            </cancion>
+            <cancion>
+                <enumeracion>11 </enumeracion>
+                <tema>One Better World -</tema>
+                <duracion> [05:38]</duracion>
+            </cancion>
+            <cancion>
+                <enumeracion>12 </enumeracion>
+                <tema>Vanity Kills -</tema>
+                <duracion> [03:29]</duracion>
+            </cancion>
+            <cancion>
+                <enumeracion>13 </enumeracion>
+                <tema>Bite The Hand -</tema>
+                <duracion> [03:07]</duracion>
+            </cancion>
+            <cancion>
+                <enumeracion>14 </enumeracion>
+                <tema>Chicago (Abridged) -</tema>
+                <duracion> [03:40]</duracion>
+            </cancion>
+            <cancion>
+                <enumeracion>15 </enumeracion>
+                <tema>Minneapolis -</tema>
+                <duracion> [02:57]</duracion>
+            </cancion>
+            <cancion>
+                <enumeracion>16 </enumeracion>
+                <tema>Think Again -</tema><duracion> [03:39]</duracion>
+            </cancion>
+            <cancion>
+                <enumeracion>17 </enumeracion>
+                <tema>Never More Than Now -</tema>
+                <duracion> [06:03]</duracion>
+            </cancion>
+            <cancion>
+                <enumeracion>18 </enumeracion>
+                <tema>All Of My Heart -</tema>
+                <duracion> [04:49]</duracion>
+            </cancion>
+        </canciones>
+    </album>
+</cuerpo>
+</disco>
+</portada>
