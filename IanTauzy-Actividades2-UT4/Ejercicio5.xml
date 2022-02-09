@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<band>
+    <nameBand>
+        Nombre de algo
+    </nameBand>
+    <History>
+        Historia de colon
+    </History>
+    <Menber Bdate="123" Plays="sectaMenber1">
+        <NameMenber>Julio</NameMenber>
+        <Role>Informatico</Role>
+        <Joined YEAR="1978"></Joined>
+    </Menber>
+    <Menber Plays="sectaMenber2">
+        <NameMenber>Pepe</NameMenber>
+        <Role>Cura</Role>
+        <Joined YEAR="1989"></Joined>
+    </Menber>
+    <Instument Id="Instrumento1">
+        Flauta
+    </Instument>
+</band>
