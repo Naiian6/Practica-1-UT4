@@ -1,5 +1,4 @@
 'use strict'
-
 function gestionarFicheroTXT(txtDoc) {
     //alert(txtDoc)
     //console.log(txtDoc.split("\n"))
@@ -20,6 +19,5 @@ function gestionarFicheroTXT(txtDoc) {
 }
 
 
-loadLDocA("Mensajes.txt")
-//setTimeout(()=>loadLDocA("Mensajes.txt"),3000) 
-//setInterval()
+//loadLDocA("Mensajes.txt")
+setInterval(loadLDocA("Mensajes.txt"),10000)
